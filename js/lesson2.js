@@ -23,7 +23,7 @@ function fizzbuzz() {
     }
 
     const fbHTML = fbArry.join("");
-    //配列fbTextを文字列にし横並びにする
+    //配列fbArryを文字列にし横並びにする
 
     document.getElementById("fizzbuzz-result").innerHTML = fbHTML;
     //HTMLのfizzbuzz-resultの所に.innerHTMLで fbHTML をさし込む
