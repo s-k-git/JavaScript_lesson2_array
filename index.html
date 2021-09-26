@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="プログラミング学習">
+    <title>js_lesson2</title>
+    <!--<link rel="stylesheet" href="css/stylesheet1.css">-->
+</head>
+
+<body>
+    <h1>FizzBuzz問題</h1>
+    <div class="fizz-class">
+        <p class="fizz">FizzNum:<input type="text" placeholder="整数値を入力してください" id="fizzNo"></p>
+    </div>
+    <div class="buzz-class">
+        <p class="buzz">BuzzNum:<input type="text" placeholder="整数値を入力してください" id="buzzNo"></p>
+    </div>
+    <p><input type="button" value="実行" onclick="fizzbuzz()"></p>
+    <!--onclick="fizzbuzz(入力値)"にすることでJavaScriptのfunction fizzbuzz()を入力値に対し計算-->
+    <p>【出力】</p>
+    <!--function fizzbuzz()でfizzbuzz-resultに結果を上書き-->
+    <div id="fizzbuzz-result"></div>
+    <!--HTML5ではデフォルトでscript type="text/javascript"-->
+    <script type="text/javascript" src="js/lesson2.js">
+    </script>
+</body>
+
+</html>
